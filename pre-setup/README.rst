@@ -5,7 +5,7 @@ The `Dockerfile` contained in this location is intended for rebuilding a minimal
 
 Downloading the image directly from Docker's registry is quicker and the recommended way to proceed. You can type the following command:
 
-    .. code-block: bash
+    .. code-block:: bash
 
         $ docker pull autholykos/pelican
 
