@@ -6,7 +6,7 @@ RUN echo "deb http://us.archive.ubuntu.com/ubuntu/ precise-updates main restrict
 RUN apt-get update
 
 # Install git
-RUN apt-get install -qy git
+RUN apt-get install -qy git wget net-tools vim
 
 # Install nginx
 RUN apt-get install -y nginx
